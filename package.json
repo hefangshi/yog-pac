@@ -1,0 +1,56 @@
+{
+    "name": "yog-pac",
+    "version": "0.1.0",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/hefangshi/yog-pac.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": {
+        "email": "frey.mike@gmail.com",
+        "name": "Mike Frey"
+    },
+    "bin": {
+        "pac": "./bin/pac"
+    },
+    "bugs": {
+        "url": "https://github.com/hefangshi/yog-pac/issues"
+    },
+    "dependencies": {
+        "async": "~0.2.9",
+        "color": "^0.10.1",
+        "commander": "~2.1.0",
+        "glob": "7.0.3",
+        "mkdirp": "0.5.1",
+        "rimraf": "2.5.2",
+        "underscore": "~1.4.4",
+        "yog-tar.gz": "0.1.3"
+    },
+    "description": "pack your node_modules as *.tgz files for version control and easy deploys",
+    "devDependencies": {
+        "chai": "^1.9.1",
+        "fs-extra": "^0.8.1",
+        "gulp": "^3.6.2",
+        "gulp-exit": "0.0.2",
+        "gulp-istanbul": "^0.1.1",
+        "gulp-js-prettify": "^0.1.0",
+        "gulp-jshint": "^1.5.5",
+        "gulp-load-plugins": "^0.5.0",
+        "gulp-mocha": "^0.4.1",
+        "jshint-stylish": "^0.1.5"
+    },
+    "homepage": "https://github.com/hefangshi/yog-pac",
+    "keywords": [
+        "module",
+        "packaging",
+        "deploy"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "maintainers": [{
+        "email": "hefangshi@gmail.com",
+        "name": "hefangshi"
+    }]
+}
