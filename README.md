@@ -1,6 +1,8 @@
 node-pac
 ============
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/hefangshi/yog-pac.svg)](https://greenkeeper.io/)
+
 [![Gitter](https://badges.gitter.im/mikefrey/node-pac.svg)](https://gitter.im/mikefrey/node-pac)
 
 Pack your node_modules as *.tgz files for version control and easy deploys
